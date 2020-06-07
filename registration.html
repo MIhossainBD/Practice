@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+            div {
+                background-color: lightgray; width: fit-content;
+                border: 15px solid green; padding: 50px;
+                margin: 20px;
+            }
+            input[type=text], select {
+                width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block;
+                border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;
+            }
+            input[type=date], select {
+                width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block;
+                border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;
+            }
+            input[type=email], select {
+                width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block;
+                border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;
+            }
+            input[type=tel], select {
+                width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block;
+                border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;
+            }
+            input[type=password], select {
+                width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block;
+                border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;
+            }
+            input[type=submit] {
+                width: 100%; background-color: #4CAF50; color: white; padding: 14px 20px;
+                margin: 8px 0; border: none;border-radius: 4px; cursor: pointer;
+            }
+            input[type=reset] {
+                width: 100%; background-color: #4CAF50; color: white; padding: 14px 20px;
+                margin: 8px 0; border: none;border-radius: 4px; cursor: pointer;
+            }
+            input[type=submit], input [type=reset]:hover {background-color: yellowgreen;}
+    </style>
+</head>
+<body>
+<div>
+    <form action="Css Tutorial.html" method="GET">
+        <fieldset>
+            <legend>Registration Form</legend>
+            <label for="fname">First Name</label><br>
+            <input type="text" id="fname" name="fname" required autofocus placeholder="Your Name.."><br>
+            <label for="lname">Last Name</label><br>
+            <input type="text" id="lname" name="lname" required placeholder="Your Last Name.."><br>
+            <label for="birthday">Date Of Birth</label><br>
+            <input type="date" id="birthday" name="birthday" required><br>
+            <label for="country">Country</label>
+            <select name="country" id="country">
+            <option value="Bangladesh">Bangladesh</option>
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            </select>
+            <label for="email">E-mail Address</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="phone">Valid Phone Number</label><br>
+            <input type="tel" id="phone" name="phone" placeholder="+880-1234-123456"><br>
+            <label for="pwd">Password</label><br>
+            <input type="password" id="pwd" name="pwd" required><br>
+            <label for="pwd">Confirm Password</label><br>
+            <input type="password" id="pwd" name="pwd" required><br>
+            
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </fieldset>
+    </form>
+</div>
+
+</body>
+</html>
